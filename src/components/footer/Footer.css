@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer p {
+  margin-block: 0.1em;
+}
