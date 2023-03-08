@@ -6,7 +6,7 @@ function Tours() {
   return (
     <div>
       {data.map((location) => (
-        <div className="tours_location">
+        <div className="tours_location" key={location.id}>
           <h2>{location.name}</h2>
           <img src={location.image} alt={location.name} />
         </div>
