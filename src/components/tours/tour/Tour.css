@@ -1,0 +1,11 @@
+.tour-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-img {
+  height: 12em;
+  object-fit: cover;
+  background-color: gray;
+}

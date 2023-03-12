@@ -1,0 +1,30 @@
+.tour-detail__heading {
+  margin: 0.5em;
+}
+
+.info {
+  text-align: start;
+}
+
+.clap-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.show-more {
+  color: blue;
+}
+
+.show-more:hover {
+  text-decoration: underline;
+}
+
+.detail-img {
+  width: 100%;
+  max-height: 24em;
+  object-fit: cover;
+}
